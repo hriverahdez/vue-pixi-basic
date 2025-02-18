@@ -1,0 +1,57 @@
+{
+  "id": "root:1",
+  "state": {
+    "warning": "Please specify a file",
+    "executionState": "IDLE",
+    "resolutions": []
+  },
+  "inPorts": [
+    {
+      "name": "Variable Inport",
+      "index": 0,
+      "optional": true,
+      "typeId": "org.knime.core.node.port.flowvariable.FlowVariablePortObject",
+      "canRemove": false,
+      "connectedVia": []
+    }
+  ],
+  "outPorts": [
+    {
+      "name": "Variable Outport",
+      "index": 0,
+      "typeId": "org.knime.core.node.port.flowvariable.FlowVariablePortObject",
+      "portContentVersion": 1645276561,
+      "canRemove": false,
+      "connectedVia": []
+    },
+    {
+      "name": "File Table",
+      "index": 1,
+      "typeId": "org.knime.core.node.BufferedDataTable",
+      "canRemove": false,
+      "connectedVia": []
+    }
+  ],
+  "kind": "node",
+  "position": {
+    "x": 833,
+    "y": 590
+  },
+  "templateId": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory",
+  "dialogType": "swing",
+  "portGroups": {
+    "File System Connection": {
+      "inputRange": [],
+      "outputRange": [],
+      "canAddInPort": true,
+      "supportedPortTypeIds": ["org.knime.filehandling.core.port.FileSystemPortObject"]
+    }
+  },
+  "allowedActions": {
+    "canCollapse": "true",
+    "canDelete": true,
+    "canReset": false,
+    "canExecute": false,
+    "canCancel": false
+  }
+}
